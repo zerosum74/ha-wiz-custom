@@ -2,9 +2,9 @@
 
 from typing import Any, override
 
-from .pywizlight import PilotBuilder
-from .pywizlight.bulblibrary import BulbClass, BulbType, Features
-from .pywizlight.scenes import get_id_from_scene_name
+from pywizlight import PilotBuilder
+from pywizlight.bulblibrary import BulbClass, BulbType, Features
+from pywizlight.scenes import get_id_from_scene_name
 
 from homeassistant.components.light import (
     ATTR_BRIGHTNESS,
