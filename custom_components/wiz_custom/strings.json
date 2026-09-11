@@ -30,7 +30,11 @@
       }
     }
   },
-  "entity": {
+    "light": {
+      "zone": {
+        "name": "Zone {zone}"
+      }
+    },
     "number": {
       "dual_head_ratio": {
         "name": "Dual head ratio"
