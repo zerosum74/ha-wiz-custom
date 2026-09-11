@@ -20,7 +20,7 @@ def get_wiz_state(device: wizlight, index: int = 0) -> PilotParser | None:
     state = device.state
     if state is None or len(state) <= index:
         return None
-        return state[index]
+    return state[index]
 
 
 class WizEntity(CoordinatorEntity[WizCoordinator], Entity):
@@ -61,7 +61,7 @@ class WizEntity(CoordinatorEntity[WizCoordinator], Entity):
         self._attr_device_info[ATTR_HW_VERSION] = hw_version
         self._attr_device_info[ATTR_MODEL] = model
 
-        @property
+    @property
     def _state(self) -> PilotParser | None:
         """Return the current state for this entity."""
         return get_wiz_state(self._device, self._state_index)
