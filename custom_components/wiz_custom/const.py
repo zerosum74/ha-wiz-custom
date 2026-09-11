@@ -2,8 +2,8 @@
 
 from datetime import timedelta
 
-from pywizlight.bulb import PIR_SOURCE
-from pywizlight.exceptions import (
+from .pywizlight.bulb import PIR_SOURCE
+from .pywizlight.exceptions import (
     WizLightConnectionError,
     WizLightNotKnownBulb,
     WizLightTimeOutError,
