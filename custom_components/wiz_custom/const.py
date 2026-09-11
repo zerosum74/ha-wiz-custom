@@ -10,7 +10,7 @@ from pywizlight.exceptions import (
 )
 
 DOMAIN = "wiz_custom"
-DEFAULT_NAME = "WiZ"
+DEFAULT_NAME = "WiZ Custom"
 
 DISCOVER_SCAN_TIMEOUT = 10
 DISCOVERY_INTERVAL = timedelta(minutes=15)
