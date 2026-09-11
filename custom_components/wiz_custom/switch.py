@@ -2,8 +2,8 @@
 
 from typing import Any, override
 
-from .pywizlight import PilotBuilder
-from .pywizlight.bulblibrary import BulbClass
+from pywizlight import PilotBuilder
+from pywizlight.bulblibrary import BulbClass
 
 from homeassistant.components.switch import SwitchEntity
 from homeassistant.core import HomeAssistant
