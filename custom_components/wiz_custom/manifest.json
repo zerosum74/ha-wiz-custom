@@ -1,6 +1,7 @@
 {
   "domain": "wiz_custom",
   "name": "WiZ Custom",
+  "version": "1.0.0",
   "codeowners": ["@zerosum74"],
   "config_flow": true,
   "dependencies": ["network"],
