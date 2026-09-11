@@ -3,7 +3,7 @@
 import logging
 from typing import Any
 
-from .pywizlight import PilotParser, wizlight
+from pywizlight import PilotParser, wizlight
 
 from homeassistant.const import CONF_HOST, EVENT_HOMEASSISTANT_STOP, Platform
 from homeassistant.core import Event, HomeAssistant, callback
