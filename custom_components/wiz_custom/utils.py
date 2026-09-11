@@ -1,7 +1,7 @@
 """WiZ utils."""
 
-from pywizlight import BulbType
-from pywizlight.bulblibrary import BulbClass
+from .pywizlight import BulbType
+from .pywizlight.bulblibrary import BulbClass
 
 from .const import DEFAULT_NAME
 
