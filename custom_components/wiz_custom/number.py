@@ -4,7 +4,7 @@ from collections.abc import Callable, Coroutine
 from dataclasses import dataclass
 from typing import cast, override
 
-from .pywizlight import wizlight
+from pywizlight import wizlight
 
 from homeassistant.components.number import (
     NumberEntity,
