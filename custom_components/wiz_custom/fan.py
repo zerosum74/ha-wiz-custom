@@ -3,7 +3,7 @@
 import math
 from typing import Any, ClassVar, override
 
-from .pywizlight.bulblibrary import BulbType, Features
+from pywizlight.bulblibrary import BulbType, Features
 
 from homeassistant.components.fan import (
     DIRECTION_FORWARD,
