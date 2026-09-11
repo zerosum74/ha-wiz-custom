@@ -3,7 +3,7 @@
 from abc import abstractmethod
 from typing import Any, override
 
-from pywizlight.bulblibrary import BulbType
+from .pywizlight.bulblibrary import BulbType
 
 from homeassistant.const import ATTR_HW_VERSION, ATTR_MODEL
 from homeassistant.core import callback
